@@ -7,6 +7,5 @@ services:
     volumes:
       - ./data/uploads:/var/www/html/Public/Uploads
       - ./data/Sqlite:/var/www/html/Sqlite
-      - ./data/install.lock:/var/www/html/install/install.lock
     ports:
       - "11380:80"
